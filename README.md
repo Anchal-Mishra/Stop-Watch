@@ -1,12 +1,55 @@
-# React + Vite
+# Stopwatch App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive stopwatch application built using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
+- Start, pause, and reset the stopwatch.
+- Displays minutes, seconds, and milliseconds.
+- Background color changes when stopped.
+- Fully responsive design for smaller screens.
+- Styled with Tailwind CSS.
+- Uses FontAwesome icons for play, pause, and reset buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/stopwatch-app.git
+   cd stopwatch-app
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Usage
+- Click the **play button** to start the stopwatch.
+- Click the **pause button** to stop it.
+- Click the **reset button** to reset the stopwatch to `00:00:00`.
+
+## Technologies Used
+- **React.js** for UI components.
+- **Tailwind CSS** for styling.
+- **FontAwesome** for icons.
+
+## Folder Structure
+```
+stopwatch-app/
+│-- src/
+│   │-- components/
+│   │   ├── StopWatch.js
+│   │-- App.js
+│   │-- index.js
+│-- public/
+│-- package.json
+│-- tailwind.config.js
+│-- README.md
+```
+
+
