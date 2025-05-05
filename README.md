@@ -2,6 +2,10 @@
 
 A simple and responsive stopwatch application built using **React** and **Tailwind CSS**.
 
+# Live Preview 
+
+https://stop-watch-ten-phi.vercel.app/
+
 ## Features
 - Start, pause, and reset the stopwatch.
 - Displays minutes, seconds, and milliseconds.
